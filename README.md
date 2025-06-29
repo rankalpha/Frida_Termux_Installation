@@ -9,6 +9,10 @@ apt update && apt upgrade && apt install build-essential python python-pip git w
 ```
 cd $TMPDIR && wget https://raw.githubusercontent.com/Alexjr2/Frida_Termux_Installation/refs/heads/main/frida-python.sh && bash frida-python.sh && cd && pip install -U frida-tools --no-deps && pip cache purge
 ```
+## Installing dependancies
+```
+pip install colorama prompt_toolkit pygments
+```
 # Credits
 - [frida](https://github.com/frida/frida) : Official Frida Repository
 - [frida-python](https://github.com/frida/frida-python.git) : For frida-python installation and script
